@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char* SSID = "Devicefunk";
-const char* PSK = "freewaycola";
+const char* SSID = "SSID";
+const char* PSK = "PWD";
 const char* MQTT_BROKER = "192.168.10.4";
 uint32_t bootTime, setupTime, WiFiTime;
 IPAddress local_IP(192, 168, 12, 50);
